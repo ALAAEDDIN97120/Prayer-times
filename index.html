@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>مواقيت الصلاة</title>
+</head>
+
+<body>
+    <div class="content" id="content">
+        <!-- CONTAINER -->
+        <div class="container " id="container">
+            <!-- THE HEAD -->
+            <div id="head" class="head">
+                <h2 id="city-name" class="city-name">
+                    دمشق
+                </h2>
+                <p id="date" class="date">the Date</p>
+
+                <!-- CHANGE CITY CELECT -->
+                <select name="" id="cities-select" class="flex">
+                    <option value="">دمشق</option>
+                    <option value="">أسطنبول</option>
+                    <option value="">ملاطيا</option>
+                </select>
+                <!--// CHANGE CITY CELECT //-->
+            </div>
+            <!--// THE HEAD //-->
+
+            <!-- PRAYER OF TIMES -->
+            <section id="prayer-times" class="prayer-times">
+                <ul class="todayprayer">
+
+                    <li class="onprayer ">
+                        <time id="fajr-time">5:59 AM</time>
+                        <img class="icon" src="//timesprayer.com/images/fajr.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">الفجْر</div>
+                    </li>
+                    <li class="onprayer ">
+                        <time id="sunrise-time">7:26 AM</time>
+                        <img class="icon" src="//timesprayer.com/images/sunrise.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">الشروق</div>
+                    </li>
+                    <li class="onprayer ">
+                        <tim id="dhuhr-time">1:22 PM</tim>
+                        <img class="icon" src="//timesprayer.com/images/dhuhr.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">الظُّهْر</div>
+                    </li>
+                    <li class="onprayer ">
+                        <time id="asr-time">4:31 PM</time>
+                        <img class="icon" src="//timesprayer.com/images/asr.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">العَصر</div>
+                    </li>
+                    <li class="onprayer ">
+                        <time id="sunset-time">7:07 PM</time>
+                        <img class="icon" src="//timesprayer.com/images/maghrib.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">المَغرب</div>
+                    </li>
+                    <li class="onprayer ">
+                        <time id="isha-time">8:27 PM</time>
+                        <img class="icon" src="//timesprayer.com/images/isha.svg" width="45" height="45" alt=""
+                            srcset="">
+                        <div class="temp">العِشاء</div>
+                    </li>
+                </ul>
+            </section>
+            <!-- PRAYER OF TIMES -->
+        </div>
+        <!--// CONTAINER //-->
+    </div>
+</body>
+
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>
