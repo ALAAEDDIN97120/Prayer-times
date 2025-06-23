@@ -29,9 +29,9 @@ Axios for making HTTP requests to the prayer times API.
 ---
 
 📷 Supported Cities
-Damascus, Aleppo, Homs, Hama, Latakia, Tartus, Raqqa, Deir ez-Zor, Al-Hasakah, Daraa
+Damascus, Aleppo, Homs, Hama, Latakia, Tartus, Raqqa, Deir ez-Zor, Al-Hasakah, Daraa, As-Suwayda, Idlib.
+
 ![Screenshot_9](https://github.com/user-attachments/assets/e3e2c1dd-6e84-4929-b75b-10dc0f57a01b)
-, As-Suwayda, Idlib.
 
 
 
